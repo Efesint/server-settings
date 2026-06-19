@@ -100,7 +100,7 @@ FAST ACTION
 [51] show command list
 [52] exit
 ```
-## Installation process
+## Installation 
 1.Install server-settings.sh
 2. Add script executable
 ```
