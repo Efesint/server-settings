@@ -334,3 +334,7 @@ is_work=true
 echo "Bye!"
 
 else
+echo "Invalid option: $answer. please choose a number between 1 and 52"
+
+fi
+done
