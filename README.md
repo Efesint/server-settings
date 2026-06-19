@@ -116,4 +116,4 @@ I'm still learning Linux administration and Bash programming.
 This project is a learning exercise, not production-ready software.
 But for casual use, I think it'll be quite usable.
 This is my first Bash project.
-Thanks for rea
+Thanks for reading.
