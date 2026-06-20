@@ -30,7 +30,6 @@ echo "Welcome to Server-Settings 1.0"
 echo ""
 
 desc() {
-
 echo "SYSTEM (hardware and OS)"
 echo "[1] Hostname " 
 echo "[2] Linux kernel version"
@@ -111,6 +110,16 @@ echo "[49] show only LOGS"
 echo "[50] show only DOCKER"
 echo "[51] show command list"
 echo "[52] exit"
+
+}
+
+system(){
+hostname 
+uname -r
+cat /etc/os-release | grep PRETTY_NAME | cut -d '"' -f2
+uptime -p
+date
+uname -m
 
 }
 
@@ -259,12 +268,7 @@ docker images --sort=size | head -5
 
 
 elif [ "$answer" = 42 ]; then
-hostname
-uname -r 
-cat /etc/os-release | grep PRETTY_NAME | cut -d '"' -f2 
-uptime -p
-date
-uname -m
+system
 
 
 elif [ "$answer" = 43 ]; then
