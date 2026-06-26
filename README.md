@@ -102,6 +102,9 @@ FAST ACTION
 ```
 ## Installation 
 1.Install server-settings.sh
+~~~
+git clone https://github.com/Efesint/server-settings && cd server-settings
+~~~
 2. Add script executable
 ```
 chmod +x server-settings.sh
